@@ -1,67 +1,45 @@
-Image Gallery Project
-Overview
-This is a responsive image gallery web application that allows users to view images in a grid layout and click on them to see an enlarged version in a modal view.
+# 📷 Image Gallery Project
 
-Features
-Responsive grid layout that adapts to different screen sizes
+## 📌 Overview
+A responsive image gallery web application that displays images in a grid layout with a click-to-enlarge functionality.
 
-Hover effects on gallery images (scale down and shadow)
+## ✨ Features
+- **Responsive Design**: Adapts to all screen sizes
+- **Interactive Elements**:
+  - Hover effects (scale + shadow)
+  - Modal popup for enlarged viewing
+- **Clean UI**: Minimalist and user-friendly interface
 
-Modal popup to view enlarged images
+## 🛠️ Technologies Used
+- **Frontend**:
+  - HTML5
+  - CSS3 (Flexbox + Grid)
+  - JavaScript
 
-Close button to exit the modal view
+## 📂 Project Structure
+imageGallery/
+├── index.html # Main application file
+├── style.css # All styling
+├── app.js # Gallery functionality
+└── images/ # Contains all gallery assets
 
-Clean, minimalist design
+## 🖥️ Live Demo  
+👉 [View Live Demo](https://alinamehboobkhan.github.io/imageGallery/)
 
-Technologies Used
-HTML5
+## 🚀 How to Use
+1. Browse images in the grid layout
+2. **Click any image** to open full-screen view
+3. Click the **X button** or outside the image to close
 
-CSS3 (with CSS Grid for layout)
+## 🔧 Customization
+To add more images:
+1. Add new `<img>` tags in `index.html`:
+   ```html
+   <img src="images/your-image.jpg" />
+- Upload images to /images folder
 
-JavaScript
+- The JavaScript will automatically handle new images
 
-Files Structure
+👩💻 Author: Alina Mehboob Khan
 
-project/
-├── index.html        - Main HTML file
-├── style.css         - Stylesheet
-├── app.js            - JavaScript functionality
-└── images/           - Folder containing gallery images
-
-How to Use
-Click on any image in the gallery to open it in full view
-
-The image will appear in a modal overlay
-
-Click the "X" in the top-right corner to close the modal
-
-Live Demo
-You can view a live demo of this project at:
-https://alinamehboobkhan.github.io/imageGallery/
-
-Customization
-To add more images to the gallery:
-
-Add new <img> tags to the .img-gallery div in index.html
-
-Place corresponding image files in the images folder
-
-The JavaScript will automatically handle the click events for new images
-
-Browser Support
-The gallery works on all modern browsers including:
-
-Chrome
-
-Firefox
-
-Safari
-
-Edge
-
-License
-This project is open source and available for anyone to use or modify.
-
-Author
-Alina Mehboob Khan
-
+ 
